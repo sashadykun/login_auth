@@ -1,0 +1,10 @@
+const config = {
+    apiKey: "your-apiKey",
+    authDomain: "firebaseAuthDomain",
+    databaseURL: "databaseURL",
+    projectId: "projectId",
+    storageBucket: "storageBucket",
+    messagingSenderId: "messagingSenderId"
+}
+
+module.export = config
