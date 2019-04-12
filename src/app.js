@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import { Header } from './components/common';
 import firebase from 'firebase';
+import LoginForm from './components/login_form';
 
 const firebaseConfig = require('./db/fire_db_config')
 
@@ -16,7 +17,7 @@ class App extends Component {
         return (
             <View>
                 <Header  headerText="Login Page"/>
-                <Text>App</Text>
+                <LoginForm />
             </View>
         )
     }
