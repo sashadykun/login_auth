@@ -5,6 +5,6 @@ const config = {
     projectId: "projectId",
     storageBucket: "storageBucket",
     messagingSenderId: "messagingSenderId"
-}
+} 
 
-module.export = config
+module.exports = config;
